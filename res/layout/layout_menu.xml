@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0b9cdb">
+
+    <Button
+        android:id="@+id/personal_data"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="130dp"
+        android:background="@null"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/snavigation001"
+        android:paddingLeft="50dp"
+        android:textColor="#ffffff"
+        android:text="@string/personal_information" />
+
+    <Button
+        android:id="@+id/switch_user"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/snavigation002"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="@string/switch_user" />
+
+
+      <Button
+            android:id="@+id/user_feedback"
+           	android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="20dp"
+	        android:background="@null"
+	        android:drawableLeft="@drawable/snavigation003"
+	        android:paddingLeft="50dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffffff"
+	        android:text="@string/user_feedback" />
+
+        <Button
+            android:id="@+id/about_sleep"
+            android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="20dp"
+	        android:background="@null"
+	        android:drawableLeft="@drawable/snavigation004"
+	        android:paddingLeft="50dp"
+	        android:textSize="20sp"
+	        android:textColor="#ffffff"
+            android:text="@string/about_us" />
+
+
+</LinearLayout>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="#ffffff">
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="20dp">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp" 
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textView5_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_longest_low_ventilation"
+            android:textSize="12sp"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:textColor="#0b9cdb"/>
+
+        
+
+        <TextView
+            android:id="@+id/zcdtq_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="--"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858" />
+
+        <TextView
+            android:id="@+id/textView4_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/zcdtq_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/textView6_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/zcdtq_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/textView7_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/occur_in"
+          	android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#0b9cdb" />
+
+        <TextView
+            android:id="@+id/dtqfs_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="--"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858" />
+
+        <TextView
+            android:id="@+id/textView9_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/dtqfs_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/textView8_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/dtqfs_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+<!-- 
+        <TextView
+            android:id="@+id/textView10_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="SpO2 = " 
+            android:textSize="12sp"
+            android:textColor="#FF5809"/>
+
+        <TextView
+            android:id="@+id/dtqspo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=" "
+            android:textColor="#46A3FF" />
+
+        <TextView
+            android:id="@+id/textView11_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="%"
+            android:textColor="#FF5809" />
+ -->
+    </LinearLayout>
+
+
+<!-- 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" 
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+        
+            <TextView
+                android:id="@+id/textView12_dtqsm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="低通气数目" 
+                android:textSize="12sp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#FF5809"/>
+
+            <TextView
+                android:id="@+id/dtqsm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="22dp"
+                android:text=""
+                android:textColor="#46A3FF" />
+            
+        </LinearLayout>
+  -->       
+ 		<LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+ 			<TextView
+ 			    android:id="@+id/textView14_dtqzsj"
+ 			    android:layout_width="wrap_content"
+ 			    android:layout_height="wrap_content"
+ 			    android:text="@string/total_low_ventilation" 
+ 			    android:textSize="12sp"
+ 			    android:layout_marginLeft="7dp"
+	            android:gravity="center_vertical"
+	            android:textColor="#0b9cdb"/>
+		<TextView
+            android:id="@+id/dtqzsj_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="--"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858" />
+
+        <TextView
+            android:id="@+id/textView4_dtqzsj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858" />
+
+        <TextView
+            android:id="@+id/dtqzsj_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/textView6_dtqzsj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/dtqzsj_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--" 
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textColor="#595858"/>
+<!--  
+        <TextView
+            android:id="@+id/textView15_dtqzsj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="21dp"
+            android:text="占睡眠总时间(%)"
+            android:textSize="12sp"
+            android:textColor="#FF5809" />
+
+        <TextView
+            android:id="@+id/textView16_dtqzsj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=":"
+            android:textColor="#46A3FF"  />
+
+        <TextView
+            android:id="@+id/dtq_zsmzsj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=" "
+            android:layout_marginLeft="5dp"
+            android:textColor="#46A3FF" />
+
+        <TextView
+            android:id="@+id/textView17_dtq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="%"
+            android:textColor="#FF5809" />
+-->
+        </LinearLayout>
+ <!-- 
+ 		<LinearLayout
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="wrap_content" >
+   
+ 	 <TextView
+            android:id="@+id/textView13_d_t_q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="低通气指数"
+            android:textSize="12sp"
+            android:layout_marginLeft="3dp"
+            android:textColor="#FF5809" />
+
+        <TextView
+            android:id="@+id/textView18_d_t_q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="21dp"
+            android:text=" "
+            android:textColor="#46A3FF" />
+ 		</LinearLayout>
+-->
+</LinearLayout>
+</LinearLayout>

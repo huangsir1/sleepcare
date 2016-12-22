@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/White" >
+
+        <ImageView
+            android:id="@+id/dialog_submit_icon"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/wait_logo"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/dialog_submit_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_submit_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/update_submit"
+            android:textColor="@color/gray_pressed"
+            android:singleLine="true"
+            android:textSize="15.0sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

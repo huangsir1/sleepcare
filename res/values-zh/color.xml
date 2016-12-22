@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_color_orange">#fb7016</color>
+    <color name="orange_color">#fe802f</color>
+    <color name="item_gray">#f7f7f7</color>
+    <color name="text_gray">#38b4ea</color>
+	<color name="default_color">#00000000</color>
+	<!-- usermanager -->
+	<color name="cheng">#FF5809</color>
+	<color name="molan">#46A3FF</color>
+	<color name="btys">#800000</color>
+	<color name="skyblue">#4f849e</color>
+	<color name="n_select">#88888d</color>
+	<color name="y_select">#0c9cdb</color>
+	<color name="bs_zt_ys">#595858</color>
+	
+	<!-- b_x_t -->
+	<color name="yzm_code">#d8d8d8</color>
+	<color name="bxt_one">#f29611</color>
+	<color name="bxt_two">#55dffc</color>
+	<color name="bxt_thr">#47c4fc</color>
+	<color name="bxt_bj">#88888d</color>
+	
+	
+	 <color name="canvas">#FF404040</color>
+    <color name="bar">#C0202020</color>
+    <color name="White">#ffffffff</color>
+    <color name="Black">#ff000000</color>
+    <color name="Orange">#ff8B6914</color>
+    <color name="Gray">#ff515151</color>
+    <color name="DarkGray">#ff404040</color>
+    <color name="VeryGray">#ff333333</color>
+    <color name="DeepGray">#ff212121</color>
+    <color name="LightOrange">#ff8B7355</color>
+    <color name="LightWhite">#ffC6E2FF</color>
+    
+    
+  <color name="gold">#FFD700</color><!--金色 -->
+    <color name="transparent">#00000000</color>
+    <color name="gray_pressed">#ffb5b5b6</color>
+    <color name="clj_ys">#0b9cdb</color>
+</resources>

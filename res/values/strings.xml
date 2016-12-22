@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taiir SleepCare</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete_user_sure">Delete this profile?</string>
+    <string name="delete_user_title">Warning</string>
+    <string name="delete_user_really">Delete this profile?</string>
+    <string name="delete_user_cancle">Cancel</string>
+    <string name="introduction">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<a href="http://www.taiir.com/" target="_blank">Taiir SleepCare</a> is an innovative sleep and respiratory care solution designed to help you evaluate the quality of sleep and empower you to live a healthy life with the ability to sleep and breathe naturally. By monitoring blood oxygen saturation and pulse rate during your sleep, Taiir SleepCare can make a comprehensive analysis of medical indexes related to sleep apnea and hypopnea. Taiir SleepCare is not only an exceptional tool for SAHS screening but also a partner to help you enjoying a better night’s sleep by providing healthcare guidelines.</string>
+    <string name="xyzs">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SPO2 is a measure of the oxygen saturation level in the arterial blood. Higher oxygen saturation indicates more oxygen in the arterial blood. Normal oxygen saturation levels in humans should be above 94%. Oxygen saturation can change due to lots of factors, including lung or heart function and altitude.</string>
+    <string name="mlzs">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Pulse Rate (PR) indicates the number of pulses per minute. This parameter is useful for evaluating overall heart health and fitness level, as well as exertion levels at a particular moment in time.</string>
+    <string name="gzzs">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Perfusion Index (PI) indicates the arterial pulse signal strength. A low PI reading indicates low perfusion, or poor blood flow to the finger. Cold fingers and toes are often the result of poor perfusion.</string>
+    <string name="OKbtn">OK</string>
+    <string name="message">Please turn your device on and place your finger inside the sensor！</string>
+    <string name="title">Warning</string>
+    <string name="xy_title">&#160;&#160;&#160;&#160;&#160;SpO2</string>
+    <string name="ml_title">&#160;PR</string>
+    <string name="gz_title">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SPO2</string>
+    <string name="button">Warning</string>
+    <string name="closebtn">×</string>
+    <string name="update_submit">Updating your porfile, please wait......</string>
+    <string name="ensure">OK</string>
+	
+	<!-- 呼吸指标，解释 -->
+    <string name="ahi">The total of apneas and hypopneas per hour of sleep, i.e. AI plus HI.</string>
+    <string name="ai" formatted="false">An apnea indicates that there is a 90% (or greater) reduction in flow, or cessation of breathing, lasting for 10 seconds or longer during sleep.</string>
+    <string name="hi" formatted="false">A hypopnea indicates that there is a 30% (or greater) reduction in flow lasting for 10 seconds or longer and an associated 4% (or greater) desaturation during sleep.</string>
+    <string name="mspo2" formatted="false">SpO2 is a term referring to the fraction of oxygen-saturated hemoglobin relative to total hemoglobin (unsaturated + saturated) in the blood. The human body requires and regulates a very precise and specific balance of oxygen in the blood. Healthy individuals at sea level usually exhibit oxygen saturation values between 96% and 99%, and should be above 94%. An SpO2 (arterial oxygen saturation) value below 90% causes hypoxemia.</string>
+    <string name="lspo2" formatted="false">SpO2 is a term referring to the fraction of oxygen-saturated hemoglobin relative to total hemoglobin (unsaturated + saturated) in the blood. The human body requires and regulates a very precise and specific balance of oxygen in the blood. Healthy individuals at sea level usually exhibit oxygen saturation values between 96% and 99%, and should be above 94%. An SpO2 (arterial oxygen saturation) value below 90% causes hypoxemia.</string>
+    <string name="tp90" formatted="false">SpO2 is a term referring to the fraction of oxygen-saturated hemoglobin relative to total hemoglobin (unsaturated + saturated) in the blood. The human body requires and regulates a very precise and specific balance of oxygen in the blood. Healthy individuals at sea level usually exhibit oxygen saturation values between 96% and 99%, and should be above 94%. An SpO2 (arterial oxygen saturation) value below 90% causes hypoxemia.</string>
+    <string name="yjzcs" formatted="false"> The total times of 4% (or greater) desaturation in oxygen.</string>
+    
+    <string name="file_log">File List</string>
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+    
+     <string name="loading">Loading...</string>
+     <string name="yjwhzs" formatted="false">Oxygen Desaturation Risk Index (ODRI) is calculated by a weighted function based on levels of oxygen desaturation during sleep, reflecting the risk of hypoxia-induced chronic diseases caused by sleep apnea. Bigger ODRIs mean Greater probability of chronic diseases.</string>
+     
+     
+         <!-- replace string -->
+    <string name="history_record">History</string>
+    <string name="date_today">Today</string>
+    <string name="respiratory_quality_score">Score of Respiratory Quality</string>
+    <string name="sleep_quality_score">Score of Sleep Quality</string>
+    <string name="view_details">View Details</string>
+    <string name="information">News</string>
+    <string name="monitor">Measure</string>
+    <string name="report">Report</string>
+    <string name="related_information">News</string>
+    <string name="sleep_disordered_breathing">What\'s Respiratory and Sleep Disorders?</string>
+    <string name="taiir_sleepcare_manual">Taiir SleepCare Manual</string>
+    <string name="sleep_disordered_breathing_30" formatted="false">Sleep apnea is a sleep disorder characterized by pauses in breathing or instances of shallow breathing during sleep. Each pause, called apnea, can last for a few seconds to several minutes.</string>
+    <string name="snoring_in">Sleep Apnea</string>
+    <string name="epworth_sleepiness_scale">Epworth Sleepiness Scale</string>
+    <string name="snoring_and_obstructive_sleep_apnea_syndrome">Sleep Apnea Signs, Symptoms and Causes</string>
+    <string name="how_to_sleep_apnea_treatment_for_snoring">Sleep Apnea Diagnosis &amp; Treatment</string>
+    <string name="add_user">&#160;&#160;Creat New Profile</string>
+    <string name="patient_list">Profiles</string>
+    <string name="sleep_disordered_breathing_Little_knowledge">What\'s Respiratory and Sleep Disorders?</string>
+    <string name="apnea_hypopnea_index_ahi"> Apnea-Hypopnea Index (AHI)</string>
+    <string name="low_ventilation">Hypopnea</string>
+    <string name="blood_oxygen_saturation">SpO2</string>
+    <string name="sleep_apnea">Sleep Apnea</string>
+    <string name="oxygen_reduction_index">ODRI</string>
+    <string name="oxygen_reduction">Oxygen Desaturation</string>
+    <string name="various_parameters">Analysis</string>
+    <string name="test_conclusion">Summary</string>
+    <string name="osahs_text">OSAHS</string>
+    <string name="hypoxia">Hypoxemia</string>
+    <string name="respiratory_index">Respiratory</string>
+    <string name="apnea_times">Apneas</string>
+    <string name="low_ventilation_frequency">Hypopneas</string>
+    <string name="oxygen_saturation_is_lower_than_90">T90(SpO2&lt;90%)</string>
+    <string name="mean_blood_oxygen_saturation">Mean SpO2</string>
+    <string name="lowest_oxygen_saturation">Min SpO2</string>
+    <string name="total_oxygen_reduction">Total Desat. Events</string>
+    <string name="maximum_pulse_rate">Max PR</string>
+    <string name="minimum_pulse_rate">Min PR</string>
+    <string name="average_pulse_rate">Mean PR</string>
+    <string name="mean_blood_flow_perfusion">Mean PI</string>
+    <string name="respiratory_quality_score_text">Score of Respiratory Quality</string>
+    <string name="sleep_data">Sleep</string>
+    <string name="sleep_time">Time</string>
+    <string name="sleep_duration">Duration</string>
+    <string name="deep_sleep_duration">Deep Sleep</string>
+    <string name="duration_of_sleep">Light Sleep&#160;</string>
+    <string name="duration_of_waking_period">Wake&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="sleep_hour">hr</string>
+    <string name="sleep_minute">min</string>
+    <string name="sleep_quality_score_texts">Score of Sleep Quality</string>
+    <string name="doctor_advice">Medical Advice</string>
+    <string name="input_advice"> Please input your advice</string>
+    <string name="submit_btn">Submit</string>
+    <string name="about">About</string>
+    <string name="software_version" formatted="false">Version:&#160;&#160;1.1.5(2016-10-17)<a href="http://www.taiir.com/en/terms.html" target="_blank">Terms of Use</a></string>
+    <string name="software_license">License:&#160;&#160;Taiir Co., Ltd., Shanghai, China</string>
+    <string name="web_url">Website:&#160;&#160;http://www.taiir.com/</string>
+    <string name="patient_information">&#160;&#160;&#160;Current Profile</string>
+    <string name="switch_user">&#160;&#160;&#160;Profiles</string>
+    <string name="monitoring_record">&#160;&#160;&#160;Records</string>
+    <string name="user_setting">&#160;&#160;&#160;Settings</string>
+    <string name="app_about">&#160;&#160;&#160;About</string>
+    <string name="app_exit">&#160;&#160;&#160;Exit</string>
+    <string name="here_are_your_medical_history_and_risk_factors">Medical History</string>
+    <string name="medical_update">Update→</string>
+    <string name="ess_epworth_sleep_scale">Epworth Sleepiness Scale</string>
+    <string name="ess_update">Update→</string>
+    <string name="in_the_following_circumstances_there_is_no_possibility_of_drowsiness">How likely are you to doze off or fall asleep in the following situations?</string>
+    <string name="never">Never</string>
+    <string name="very_seldom">Slight</string>
+    <string name="sometimes">Moderate</string>
+    <string name="often">High</string>
+    <string name="zero">(0)</string>
+    <string name="one">(1)</string>
+    <string name="two">(2)</string>
+    <string name="three">(3)</string>
+    <string name="sitting_reading">Sitting and reading</string>
+    <string name="when_watching_tv">Watching TV</string>
+    <string name="sitting_and_talking_with_people">Sitting and talking to someone</string>
+    <string name="when_driving_a_traffic_light">In a car, while stopped for a few minutes in the traffic</string>
+    <string name="when_the_afternoon_jingwo_rest">Lying down to rest in the afternoon when circumstances permit</string>
+    <string name="after_a_meal_no_alcohol">Sitting quietly after lunch (no alcohol)</string>
+    <string name="long_time_in_the_middle_of_the_car_does_not_rest_more_than_1h">As a passenger in a car for an hour without a break</string>
+    <string name="when_sitting_in_a_public_place_as_in_a_theater_or_a_meeting">Sitting inactive in a public place (e.g. a theater or a meeting)</string>
+    <string name="total_score">Total Score</string>
+    <string name="monitoring_record_text">Records</string>
+    <string name="determine">Confirm</string>
+    <string name="personal_data">Current Profile</string>
+    <string name="user_name">Name</string>
+    <string name="m_h_j">*</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_birthday">Date of Birth</string>
+    <string name="user_weight">Weight</string>
+    <string name="weight_kg">kg</string>
+    <string name="user_height">Height</string>
+    <string name="height_cm">cm</string>
+    <string name="user_phone">Phone</string>
+    <string name="view_medical_history">Medical History</string>
+    <string name="degree_of_sleepiness">Daytime Sleepiness</string>
+    <string name="preservation">Save</string>
+    <string name="search_equipment">Connecting</string>
+    <string name="device_has_been_connected">Connected</string>
+    <string name="for_verification_please_wait">Verifying, please wait......</string>
+    <string name="osahs_judgment_basis">OSAHS and Hypoxemia Ratings</string>
+    <string name="degree">Rating</string>
+    <string name="ahi_s_h">AHI</string>
+    <string name="minimum_spo2">Min SpO2</string>
+    <string name="light">Mild</string>
+    <string name="moderate">Moderate</string>
+    <string name="severe">Severe</string>
+    <string name="a_l_5_15">5~15</string>
+    <string name="m_l_85_90">85~90</string>
+    <string name="a_m_16_30">16~30</string>
+    <string name="m_m_80_84">80~84</string>
+    <string name="greater_than_30" formatted="false">>30</string>
+    <string name="less_than_80">&lt;80</string>
+	<string name="conclusion">Conclusion:</string>
+    <string name="remarks">Remarks:</string>
+    <string name="ess_pf">ESS = </string>
+    <string name="ess_score"> &#160;</string>
+    <string name="bmi_score">BMI = </string>
+    <string name="bmi_kg_m"> kg/m²</string>
+    <string name="the_longest_low_ventilation">Longest hypopnea</string>
+    <string name="occur_in">Time</string>
+    <string name="total_low_ventilation">Total duration of hypopnea events</string>
+    <string name="odi_fs">ODI = </string>
+    <string name="when_waking">Wake:</string>
+    <string name="lowest">Min:</string>
+    <string name="highest">Max:</string>
+    <string name="average">Mean:</string>
+    <string name="blood_oxygen_distribution">SpO2</string>
+    <string name="total_time">Time</string>
+    <string name="bod_90_100" formatted="false">90%-100%</string>
+    <string name="bod_80_89" formatted="false">80%-89%</string>
+    <string name="bod_70_79" formatted="false">70%-79%</string>
+    <string name="bod_60_69" formatted="false">60%-69%</string>
+    <string name="bod_50_59" formatted="false">50%-59%</string>
+    <string name="bod_less_than_50" formatted="false">&lt;50%</string>
+    <string name="longest_apnea">Longest Apnea</string>
+    <string name="total_apnea">Total duration of apnea events</string>
+    <string name="setting_st">Settings</string>
+    <string name="hospital_name">Hospital</string>
+    <string name="doctor_name">Doctor</string>
+    <string name="printer_information">Printer</string>
+    <string name="h_p">HP&#160;&#160;126.00.00</string>
+    <string name="history_selection">Medical History</string>
+   	<string name="choose_whether_the_following_history_or_risk_factors">Please select if you have the following diseases or risk factors</string>
+    <string name="insomnia">Insomnia</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="coronary_heart_disease">Coronary Heart Disease</string>
+    <string name="heart_failure">Heart Failure</string>
+    <string name="arrhythmia">Arrhythmia</string>
+    <string name="nasal_obstruction">Nasal Obstruction</string>
+    <string name="long_term_smoking">Long-term Smoking</string>
+    <string name="bulky_uvula">Elongated Uvula</string>
+    <string name="family_history_of_osahs">Familial OSAHS</string>
+    <string name="cerebral_vascular_disease">Cerebrovascular Disease</string>
+    <string name="renal_function_damage">Renal Dysfunction</string>
+    <string name="to_use_a_sedative_drug">Taking Sedatives</string>
+    <string name="long_term_heavy_drinking">Long-term Alcohol Abuse</string>
+    <string name="whether_menopause">Menopause</string>
+    <string name="evaluation_of_sleepiness">Epworth Sleepiness Scale</string>
+    <string name="possibility_of_sleepiness">How likely are you to doze off or fall asleep in the following situations?</string>
+    <string name="sitting_in_the_reading">1. Sitting and reading</string>
+    <string name="when_watching_tv_2">2. Watching TV</string>
+    <string name="sitting_in_the_public_places_do_not_move">3. Sitting inactive in a public place (e.g. a theater or a meeting)</string>
+    <string name="long_time_in_the_middle_of_the_car_does_not_rest">4. As a passenger in a car for an hour without a break</string>
+    <string name="sitting_and_talking_with_people_5">5. Sitting and talking to someone</string>
+    <string name="after_a_meal_break_no_alcohol_when_6">6. Sitting quietly after lunch (no alcohol)</string>
+    <string name="when_driving_and_other_traffic_lights_7">7. In a car, while stopped for a few minutes in the traffic</string>
+    <string name="afternoon_jingwo_rest_at_8">8. Lying down to rest in the afternoon when circumstances permit</string>
+    <string name="next_step">Next</string>
+    <string name="qt_submit">Submit</string>
+    <string name="sleep_care">Taiir SleepCare</string>
+    <string name="mobile_phone">Phone</string>
+    <string name="verification_code">Code</string>
+    <string name="get_verification_code">Verify</string>
+    <string name="verify_and_login">Login</string>
+    <string name="fill_in_the_registration_information">Create New Profile</string>
+    <string name="responsible_physician">Doctor</string>
+    <string name="d_phone_number">Phone</string>
+    <string name="immediate_experience">Get Started</string>
+    
+    <!-- activity -->
+    <string name="department_name">Department</string>
+    <!-- historyactivity -->
+    <string name="no_measured_data">, No measurements...</string>
+    <!-- mainactivity -->
+    <string name="bluetooth_failed_to_open_and_then_try_again">Please turn on Bluetooth!</string>
+    <string name="then_click_one_exit_procedure">Click the button once more to exit this App</string>
+    <string name="whether_thend_of_this_measurement_generation_phase_report">Stop recording？\n\n"Stop": Generate the final report.\n"No": Generate the interim report. The recording could be resumed within 10 minutes</string>
+    <string name="end">Stop</string>
+    <string name="no">No</string>
+    <string name="bluetooth_device_connection_failed_after_the_re_search_device">Failed to connect the device.\nPlease enable Bluetooth and try connceting again.</string>
+    <string name="re_search">Searching</string>
+    <string name="cancel">Cancel</string>
+    <string name="currently_being_measured_sure_you_want_to_switch_users">User switching will stop current recording.\n\nAre your sure？</string>
+    <string name="no_input">Normal</string>
+    <string name="severe_osahs">Severe OSAHS</string>
+    <string name="moderate_osahs">Moderate OSAHS</string>
+    <string name="light_osahs">Mild OSAHS</string>
+    <string name="and_severe_hypoxia">with Severe Hypoxemia</string>
+    <string name="and_moderate_hypoxia">with Moderate Hypoxemia</string>
+    <string name="and_mild_hypoxia">with Mild Hypoxemia</string>
+    <string name="severe_hypoxia">Severe Hypoxemia</string>
+    <string name="moderate_hypoxia">Moderate Hypoxemia</string>
+    <string name="mild_hypoxia">Mild Hypoxemia</string>
+    <string name="report_upload_failed_please_open_network">Failed to gennerate report. Please enable WiFi or mobile data connection.</string>
+    <string name="measurement_time_is_too_short">Measurement too short！</string>
+    <string name="data_processing_is_completed">Data processed！</string>
+    <string name="to_perform_calculations_please">Analyzing, please wait...</string>
+    <string name="measurement_exception_no_measurement_data">No measurements！</string>
+    <string name="please_check_your_network_and_try_again">Please enable WiFi or mobile data connection. Try again.</string>
+    <string name="please_enter_the_name_of_the_hospital">Please input hospital name.</string>
+    <string name="please_enter_your_doctors_name">Please input doctor name.</string>
+    <string name="please_enter_the_name_of_the_department">Please input department name</string>
+    <string name="please_enter_the_printer_name">Please input printer name</string>
+    <string name="add_a_doctors_name">Add doctors</string>
+    <string name="doctor_name_delete_confirmation">Delete this doctor?</string>
+    <string name="are_you_sure_you_want_to_delete">Delete "</string>
+    <string name="m">"？</string>
+    <!-- switchactivity -->
+    <string name="the_user_deleted_successfully">Deleted.</string>
+    <string name="waiting_for_the_bluetooth_connection_to_close_please_later">Disconnceting...\nPlease wait.</string>
+    <!-- AHIdialog -->
+    <string name="menopause">Menopause</string>
+    <string name="take_a_sedative">Taking Sedatives</string>
+    <string name="a_family_history_of_osahs">Familial OSAHS</string>
+    <string name="daytime_sleepiness">Excessive daytime sleepiness</string>
+    <string name="daytime_sleepiness_was_not_obvious">Mild daytime sleepiness</string>
+    <string name="normal_daytime_sleepiness">Normal Daytime Sleepiness</string>
+    <string name="mild_daytime_sleepiness">Mild Daytime Sleepiness</string>
+    <string name="moderate_daytime_sleepiness">Moderate Daytime Sleepiness</string>
+    <string name="severe_daytime_sleepiness">Severe Daytime Sleepiness</string>
+    
+    <string name="too_light">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obesity">Obese</string>
+    <string name="very_fat">Severely Obese</string>
+    <!-- viewMedicalhistory -->
+    <string name="female">Female</string>
+    <string name="medical_history_of_the_disease">Nothing.</string>
+    <!-- reportfragment -->
+    <string name="deep_sleep">Deep</string>
+    <string name="light_sleep">Light</string>
+    <string name="sober">Wake</string>
+    <string name="the_file_is_being_generated_please">Generating report, please wait...</string>
+    <string name="please_turn_on_the_networ_connection">Please enable WiFi or mobile data connection.</string>
+    <string name="report_did_not_successfully_uploaded_open_the_network">Failed to generate report. Please enable WiFi or mobile data connection. Then try again.</string>
+    <string name="network_is_not_available_set_the_mobile_network_view_data">Internet unavailable.Please enable WiFi or mobile data connection. Then try again.</string>
+    <string name="no_report">No report!</string>
+    <!-- MonthDateView -->
+    <string name="no_">No.</string>
+    <string name="week">Week</string>
+    <!-- weekDayView -->
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <!-- personalDataAcctivity -->
+    <string name="please_add_user">Create new profile.</string>
+    <string name="years">-</string>
+    <string name="months">-</string>
+    <string name="days"></string>
+    <string name="please_enter_the_correct_phone_number">Please input your valid cell phone number.</string>
+    <string name="no_modification">No modification.</string>
+    <string name="modify_failed_please_open_the_network">Failed to connect the server. Please enable WiFi or mobile data connection.</string>
+   	<string name="success_of_user_information_modification">Your profile has been updated!</string> 
+    <string name="user_information_modification_failed">Failed to update your profile.</string>
+    <string name="modifying_user_information_please_wait">Updating your profile, please wait...</string>
+    <!-- updateBsFActivity -->
+    <string name="history_revision_success">Update successful.</string>
+    <string name="history_revision_failure">Update failed.</string>
+    <string name="please_wait_while_modifying_the_medical_history_information">Updating your data, please wait...</string>
+    <!-- uodateEssActivity -->
+    <string name="the_first_question_is_not_selected">Question 1 is required.</string>
+    <string name="the_second_question_is_not_selected">Question 2 is required.</string>
+    <string name="the_third_question_is_not_selected">Question 3 is required.</string>
+    <string name="the_fourth_question_is_not_selected">Question 4 is required.</string>
+    <string name="the_fifth_question_is_not_selected">Question 5 is required.</string>
+    <string name="the_sixth_question_is_not_selected">Question 6 is required.</string>
+    <string name="the_seventh_question_is_not_selected">Question 7 is required.</string>
+    <string name="the_eighth_question_is_not_selected">Question 8 is required.</string>
+    <string name="sleep_modification_success">Update successful.</string>
+    <string name="sleep_modification_failure">Update failed.</string>
+    <string name="modifying_sleepiness_information_please_wait">Updating your data, please wait...</string>
+	<!-- userchangeActivity -->    
+    <string name="the_number_of_users_is_full">You can not create new profiles.</string>
+    <!-- userQuestionActivity -->
+    <string name="fill_in_the_failure">Failed to submit the form!</string>
+    <string name="input_username">Please input your name.</string>
+    <string name="input_gender">Please select your gender.</string>
+    <string name="input_birthday">Please select your date of birth.</string>
+    <string name="input_weight">Please input your weight.</string>
+    <string name="input_height">Please input your height.</string>
+    <string name="input_phone">Please input your valid mobile phone number.</string>
+    <string name="input_doctor_name">Please select your doctor.</string>
+    <string name="input_hospital_name">Please select your hospital.</string>
+    <string name="unknown_error_please_fill_in">Unknown error. Please try again.</string>
+    <string name="male">Male</string>
+
+    <!-- user_feedback -->
+    <string name="user_feedback">&#160;&#160;&#160;Feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="enter_information_up_to_200">&#160;&#160;Please input your message here.</string>
+    <string name="your_opinion_is_very_important_for_us_to_submit_to_success">Your message has been successfully submitted. Thanks!</string>
+    <string name="submission_failed_please_try_again">Submission failed. Please try again!</string>
+    <string name="please_enter_your_valuable_comments">Please input your comments.</string>
+    <string name="no_measured_data_please_check_back_to_see">No measurement.</string>
+ 
+    <!-- insert_adduser -->
+	<string name="long_press_tag_can_be_deleted">Press and hold down to delete the profile.</string>
+	<string name="add_doctor">Add Doctors</string>
+	<string name="add_users">&#160;&#160;Create New Profile</string>
+	<string name="user_list">Profiles</string>
+	<string name="personal_information">&#160;&#160;&#160;Current Profile</string>
+	<string name="about_us">&#160;&#160;&#160;About</string>
+	
+	<!-- userregister -->
+	<string name="phone_number_input_error">Invalid mobile phone number</string>
+    <string name="input_code">Please enter verification code</string>
+    <string name="code_number_input_error">Verification code is invalid or expired</string>
+    <string name="imput_email">Please enter a valid Email address</string>
+    <string name="email_number_input_error">Invalid Email address</string>
+	<string name="re_send">Request new verification code</string>
+	<string name="emails">E-mail</string>
+	<string name="user_email">Enter a valid Email address</string>
+</resources>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1_personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#38b4ea" >
+
+            <TextView
+                android:id="@+id/u_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/personal_data"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView2_personal"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/sregister001" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView4_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_name"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/editText2_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="@null"
+                android:textSize="15sp"
+                android:textColor="#38b4ea"
+                android:inputType="textPersonName"
+                android:ems="9"/>
+
+            <TextView
+                android:id="@+id/ts_name_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/m_h_j"
+                android:textColor="#FF0000"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/sex_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_gender"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp"  />
+
+            <TextView
+                android:id="@+id/usersex_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:textColor="#38b4ea"
+                android:textSize="15sp"/>
+            <!--
+            	android:enabled="false" 
+                android:editable="false"
+            -->
+
+            <TextView
+                android:id="@+id/ts_sex_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/m_h_j"
+                android:textColor="#FF0000"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView6_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/user_birthday"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/editText3_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="date"
+                android:maxLength="15"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView8_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/user_weight"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/editText4_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="7"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView5_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/editText4_personal"
+                android:text="@string/weight_kg"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView10_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/user_height"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/editText5_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="7"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/editText5_personal"
+                android:layout_alignBottom="@id/editText5_personal"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/editText5_personal"
+                android:text="@string/height_cm"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/u_call"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:background="@drawable/sregister0001" >
+            <TextView
+                android:id="@+id/cel_ucell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_phone"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+            
+
+            <EditText
+                android:id="@+id/pucell_ucell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="@null"
+                android:textSize="15sp"
+                android:inputType="phone"
+                android:textColor="#38b4ea"
+                android:maxLength="11"
+                android:ems="11" />
+            
+            <TextView
+                android:id="@+id/call_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/m_h_j"
+                android:textColor="#FF0000"
+                android:textSize="25sp" />
+            
+            
+        </RelativeLayout>
+ <!--  -->
+        <RelativeLayout
+            android:id="@+id/u_email"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:background="@drawable/sregister0001" >
+            <TextView
+                android:id="@+id/l_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/emails"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/e_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="@null"
+                android:textSize="15sp"
+                android:textColor="#38b4ea"
+                android:inputType="textPersonName"
+                android:ems="9"/>
+
+            <TextView
+                android:id="@+id/email_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/m_h_j"
+                android:textColor="#FF0000"
+                android:textSize="25sp" />
+            
+        </RelativeLayout>
+<!--  -->
+        <RelativeLayout
+            android:id="@+id/below_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:id="@+id/bs_history_personal"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/slogin_0002"
+                android:text="@string/view_medical_history"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/ss_ess_personal"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/slogin_0002"
+                android:text="@string/degree_of_sleepiness"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+		<Button
+		    android:id="@+id/submit_personal"
+		    android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:background="@drawable/slogin_0002"
+	        android:textSize="15sp"
+	        android:textColor="#ffffff"
+		    android:text="@string/preservation" />
+	    
+	</LinearLayout>
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

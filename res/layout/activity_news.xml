@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#38b4ea"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/sliding_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/sadduer001" />
+
+        <TextView
+            android:id="@+id/title_en"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1000"
+            android:gravity="center"
+            android:text="@string/related_information"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/sadduer001"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" >
+                </android.support.v4.view.ViewPager>
+
+                <LinearLayout
+                    android:id="@+id/ll_points_news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/vp_news"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#d8d8d8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/web_manuals"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:drawableLeft="@drawable/sinformation001"
+                    android:drawableRight="@drawable/sadduer004"
+                    android:gravity="center_vertical"
+                    android:text="@string/taiir_sleepcare_manual"
+                    android:textColor="#0b9cdb"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c8c8c8" />
+
+                <TextView
+                    android:id="@+id/web_dkp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/sinformation001"
+                    android:text="@string/sleep_disordered_breathing"
+                    android:textColor="#0b9cdb"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/sregister0001"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="127dp"
+                        android:layout_height="125dp"
+                        android:layout_margin="6dp"
+                        android:src="@drawable/iv_src" />
+
+                    <TextView
+                        android:id="@+id/tv_science"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="6dp"
+                        android:gravity="center"
+                        android:text="@string/sleep_disordered_breathing_30" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_note_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#f7f7f7"
+                        android:drawableTop="@drawable/sinformation008"
+                        android:gravity="center"
+                        android:text="@string/snoring_in" />
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="85dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/tv_note_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#f7f7f7"
+                        android:drawableTop="@drawable/sinformation009"
+                        android:gravity="center"
+                        android:text="@string/epworth_sleepiness_scale" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_tip_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:drawableLeft="@drawable/sinformation001"
+                    android:drawableRight="@drawable/sadduer004"
+                    android:gravity="center_vertical"
+                    android:text="@string/snoring_and_obstructive_sleep_apnea_syndrome"
+                    android:textColor="#0b9cdb"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c8c8c8" />
+
+                <TextView
+                    android:id="@+id/tv_tip_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:drawableLeft="@drawable/sinformation001"
+                    android:drawableRight="@drawable/sadduer004"
+                    android:gravity="center_vertical"
+                    android:text="@string/how_to_sleep_apnea_treatment_for_snoring"
+                    android:textColor="#0b9cdb"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

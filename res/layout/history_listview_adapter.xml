@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <ImageView
+            android:id="@+id/image_adapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/history_records" />
+
+        <TextView
+            android:id="@+id/his_rec_adapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@id/image_adapter"
+            android:text=""
+            android:textColor="#0b9bdb"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView1_hla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/his_rec_adapter"
+            android:text=" -- "
+            android:textColor="#0b9bdb" />
+
+        <TextView
+            android:id="@+id/his_end_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/textView1_hla"
+            android:text=""
+            android:textColor="#0b9bdb"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/image_history_adapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/sadduer004" />
+    </RelativeLayout>
+
+</LinearLayout>

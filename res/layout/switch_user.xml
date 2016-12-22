@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#38b4ea" >
+
+        <TextView
+            android:id="@+id/add_btn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/sadduer002"
+            android:gravity="center"
+            android:text="@string/add_users"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView1_switch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/sadduer001" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/c_y_l_b"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+       	android:layout_below="@id/relativeLayout1_switch">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#595858"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/user_list" />
+        <View 
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d8f0f8"/>
+    </RelativeLayout>
+    
+    
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/c_y_l_b"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" >
+
+        <ListView
+            android:id="@+id/name_report_list_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:cacheColorHint="#00000000"
+            android:divider="#d8f0f8"
+            android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+		    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+		    android:scrollbarSize="3dp"
+            android:dividerHeight="2.6px"
+            android:fadingEdge="none" >
+        </ListView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38b4ea"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/sleep_care_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_care"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/phone_editor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/slogin_0003"
+            android:drawableLeft="@drawable/slogin_001"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/mobile_phone"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="10dp"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/phone_codes"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/slogin_0004"
+                android:drawableLeft="@drawable/slogin_002"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="@string/verification_code"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:textColor="#595858"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/obtain_codes_btn"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/slogin_0001"
+                android:text="@string/get_verification_code"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="27dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/verification_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/slogin_0002"
+            android:text="@string/verify_and_login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

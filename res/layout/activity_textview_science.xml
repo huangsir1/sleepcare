@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ae="http://www.taiyi.com/"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#38b4ea"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="back"
+            android:src="@drawable/sregister001" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1000"
+            android:gravity="center"
+            android:text="@string/sleep_disordered_breathing"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/sregister001"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.sleep.myui.MyTextView
+            android:id="@+id/my_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            ae:marginLeft="20"
+            ae:marginRight="20"
+            ae:paddingLeft="20"
+            ae:paddingRight="20"
+            ae:textColor="#000000"
+            ae:textSize="40"
+            android:background="@android:color/white" />
+    </ScrollView>
+
+</LinearLayout>

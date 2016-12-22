@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">睡眠管家</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete_user_sure">确定要删除此用户吗?</string>
+    <string name="delete_user_title">温馨提示:</string>
+    <string name="delete_user_really">你真的要删除该用户信息吗?</string>
+    <string name="delete_user_cancle">取消</string>
+    <string name="introduction">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<a href="http://www.taiir.com/" target="_blank">睡眠管家</a>是一款专注健康睡眠的产品，目的是帮助您评估睡眠质量，分析睡眠过程中的健康指标。通过监测您睡眠过程中血氧饱和度和脉率的变化，睡眠管家可以分析出睡眠过程中出现的呼吸暂停和低通气状况，进行鼾症的初步筛查，为您的健康睡眠提供专家指引和诊疗建议。</string>
+    <string name="xyzs">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;血氧是对动脉血中血氧饱和度的测量。血氧饱和度较高表示动脉血中含氧比较多。正常范围为94%以上，血氧饱和度会因若干因素发生变化，这些因素包括心肺功能及海拔高度。</string>
+    <string name="mlzs">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;脉率表示每分钟的脉搏次数。该参数对于及时评估整体健康状况以及特定时刻的活动强度非常有用。</string>
+    <string name="gzzs">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;血流灌注指数表示动脉脉搏信号的强度。低PI度数表示血流灌注低，或是手指流血不畅。一般，手指和脚趾冰冷会导致血流灌注不佳。 </string>
+    <string name="OKbtn">确认</string>
+    <string name="message">设备脱落，请配戴好您的设备！</string>
+    <string name="title">注意</string>
+    <string name="xy_title">血氧饱和度</string>
+    <string name="ml_title">脉率</string>
+    <string name="gz_title">    血氧</string>
+    <string name="button">警告</string>
+    <string name="closebtn">×</string>
+    <string name="update_submit">正在修改,请稍候......</string>
+    <string name="ensure">确定</string>
+
+    <!-- 呼吸指标，解释 -->
+    <string name="ahi">&#160;&#160;&#160;&#160;睡眠中平均每小时呼吸暂停与低通气的次数之和，即AI与HI的和。</string>
+    <string name="ai" formatted="false">&#160;&#160;&#160;&#160;睡眠过程中口鼻呼吸气流消失或明显减弱(较基线幅度下降≥90%) ，持续时间≥10s。</string>
+    <string name="hi" formatted="false">&#160;&#160;&#160;&#160;睡眠过程中口鼻气流较基线水平降低≥30%并伴脉搏血氧饱和度( SpO2)下降≥4%，持续时间≥10 s; 或者是口鼻气流较基线水平降低≥50%并伴SpO2下降≥3%，持续时间≥10 s。</string>
+    <string name="mspo2" formatted="false">&#160;&#160;&#160;&#160;血氧饱和度(SpO2)是血液中被氧结合的氧合血红蛋白(HbO2)的容量占全部可结合的血红蛋白(Hb，hemoglobin)容量的百分比，即血液中血氧的浓度，它是呼吸循环的重要生理参数。正常人体动脉血的血氧饱和度为98%，一般认为SpO2正常应不低于94%，在94%以下为供氧不足。</string>
+    <string name="lspo2" formatted="false">&#160;&#160;&#160;&#160;血氧饱和度(SpO2)是血液中被氧结合的氧合血红蛋白(HbO2)的容量占全部可结合的血红蛋白(Hb，hemoglobin)容量的百分比，即血液中血氧的浓度，它是呼吸循环的重要生理参数。正常人体动脉血的血氧饱和度为98%，一般认为SpO2正常应不低于94%，在94%以下为供氧不足。</string>
+    <string name="tp90" formatted="false">&#160;&#160;&#160;&#160;血氧饱和度(SpO2)是血液中被氧结合的氧合血红蛋白(HbO2)的容量占全部可结合的血红蛋白(Hb，hemoglobin)容量的百分比，即血液中血氧的浓度，它是呼吸循环的重要生理参数。正常人体动脉血的血氧饱和度为98%，一般认为SpO2正常应不低于94%，在94%以下为供氧不足。</string>
+    <string name="yjzcs" formatted="false">&#160;&#160;&#160;&#160;血氧饱和度( SpO2)下降≥4%</string>
+    <string name="file_log">文件列表</string>
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+    <string name="loading">正在加载...</string>
+    <string name="yjwhzs" formatted="false">&#160;&#160;&#160;&#160;氧减危害指数是以用户睡眠期间氧减的不同程度加权计算得出的，反映鼾症引起的低氧血诱发慢病的机率，数值越大，诱发慢病机率越大。</string>
+
+    <!-- replace string -->
+    <string name="history_record">历史记录</string>
+    <string name="date_today">今天日期</string>
+    <string name="respiratory_quality_score">呼吸质量评分</string>
+    <string name="sleep_quality_score">睡眠质量评分</string>
+    <string name="view_details">查看详情</string>
+    <string name="information">资讯</string>
+    <string name="monitor">监测</string>
+    <string name="report">报告</string>
+    <string name="related_information">相关资讯</string>
+    <string name="sleep_disordered_breathing">睡眠呼吸障碍大科普</string>
+    <string name="taiir_sleepcare_manual">Taiir睡眠监测系统使用说明</string>
+    <string name="sleep_disordered_breathing_30" formatted="false">睡眠呼吸障碍是指每晚睡眠过程中呼吸暂停反复30次以上或呼吸暂停低通气指数≥5次/小时并伴有嗜睡等临床症状。</string>
+    <string name="snoring_in">鼾症十问</string>
+    <string name="epworth_sleepiness_scale">Epworth嗜睡量表</string>
+    <string name="snoring_and_obstructive_sleep_apnea_syndrome">鼾症与阻塞性睡眠呼吸暂停综合征概述</string>
+    <string name="how_to_sleep_apnea_treatment_for_snoring">伴有呼吸暂停的鼾症如何治疗？</string>
+    <string name="add_user">&#160;&#160;添加患者</string>
+    <string name="patient_list">患者列表</string>
+    <string name="sleep_disordered_breathing_Little_knowledge">睡眠呼吸障碍小知识</string>
+    <string name="apnea_hypopnea_index_ahi">呼吸暂停低通气指数(AHI)</string>
+    <string name="low_ventilation">低通气</string>
+    <string name="blood_oxygen_saturation">血氧饱和度</string>
+    <string name="sleep_apnea">睡眠呼吸暂停</string>
+    <string name="oxygen_reduction_index">氧减危害指数</string>
+    <string name="oxygen_reduction">氧减</string>
+    <string name="various_parameters">各项参数</string>
+    <string name="test_conclusion">测试结论</string>
+    <string name="osahs_text">OSAHS</string>
+    <string name="hypoxia">低氧血症</string>
+    <string name="respiratory_index">呼吸指标</string>
+    <string name="apnea_times">呼吸暂停次数</string>
+    <string name="low_ventilation_frequency">低通气次数</string>
+    <string name="oxygen_saturation_is_lower_than_90">血氧饱和度低于90%占比</string>
+    <string name="mean_blood_oxygen_saturation">平均血氧饱和度</string>
+    <string name="lowest_oxygen_saturation">最低血氧饱和度</string>
+    <string name="total_oxygen_reduction">氧减总次数</string>
+    <string name="maximum_pulse_rate">最高脉率</string>
+    <string name="minimum_pulse_rate">最低脉率</string>
+    <string name="average_pulse_rate">平均脉率</string>
+    <string name="mean_blood_flow_perfusion">平均血流灌注度</string>
+    <string name="respiratory_quality_score_text">呼吸质量评分</string>
+    <string name="sleep_data">睡眠数据</string>
+    <string name="sleep_time">睡眠时间</string>
+    <string name="sleep_duration">睡眠时长</string>
+    <string name="deep_sleep_duration">深睡期时长</string>
+    <string name="duration_of_sleep">浅睡期时长</string>
+    <string name="duration_of_waking_period">清醒期时长</string>
+    <string name="sleep_hour">小时</string>
+    <string name="sleep_minute">分钟</string>
+    <string name="sleep_quality_score_texts">睡眠质量评分</string>
+    <string name="doctor_advice">医生意见</string>
+    <string name="input_advice"> 请输入您的意见</string>
+    <string name="submit_btn">提交</string>
+    <string name="about">关于</string>
+    <string name="software_version" formatted="false">软件版本：&#160;1.1.5(2016-10-17)<a href="http://www.taiir.com/zh/terms.html" target="_blank">使用条款</a></string>
+    <string name="software_license">软件授权：&#160;上海钛铱信息技术有限公司</string>
+    <string name="web_url">公司网址：&#160;&#160;http://www.taiir.com</string>
+    <string name="patient_information">&#160;&#160;&#160;患者信息</string>
+    <string name="switch_user">&#160;&#160;&#160;切换用户</string>
+    <string name="monitoring_record">&#160;&#160;&#160;监测记录</string>
+    <string name="user_setting">&#160;&#160;&#160;设置</string>
+    <string name="app_about">&#160;&#160;&#160;关于</string>
+    <string name="app_exit">&#160;&#160;&#160;退出</string>
+    <string name="here_are_your_medical_history_and_risk_factors">以下是您的病史和危险因素</string>
+    <string name="medical_update">修改→</string>
+    <string name="ess_epworth_sleep_scale">ESS 嗜睡量表</string>
+    <string name="ess_update">修改→</string>
+    <string name="in_the_following_circumstances_there_is_no_possibility_of_drowsiness">在以下情况有无瞌睡的可能性</string>
+    <string name="never">从不</string>
+    <string name="very_seldom">很少</string>
+    <string name="sometimes">有时</string>
+    <string name="often">经常</string>
+    <string name="zero">(0)</string>
+    <string name="one">(1)</string>
+    <string name="two">(2)</string>
+    <string name="three">(3)</string>
+    <string name="sitting_reading">坐着阅读时</string>
+    <string name="when_watching_tv">看电视时</string>
+    <string name="sitting_and_talking_with_people">坐着与人谈话时</string>
+    <string name="when_driving_a_traffic_light">开车等红绿灯时</string>
+    <string name="when_the_afternoon_jingwo_rest">下午静卧休息时</string>
+    <string name="after_a_meal_no_alcohol">饭后休息时(未饮酒时)</string>
+    <string name="long_time_in_the_middle_of_the_car_does_not_rest_more_than_1h">长时间坐车时中间不休息(超过1h)</string>
+    <string name="when_sitting_in_a_public_place_as_in_a_theater_or_a_meeting">在公共场所坐着不动时(如在剧场或开会)</string>
+    <string name="total_score">总分为</string>
+    <string name="monitoring_record_text">监测记录</string>
+    <string name="determine"> 确  定</string>
+    <string name="personal_data">个人资料</string>
+    <string name="user_name">姓&#160;&#160;名</string>
+    <string name="m_h_j">*</string>
+    <string name="user_gender">性&#160;&#160;别</string>
+    <string name="user_birthday">生&#160;&#160;日</string>
+    <string name="user_weight">体&#160;&#160;重</string>
+    <string name="weight_kg">kg</string>
+    <string name="user_height">身&#160;&#160;高</string>
+    <string name="height_cm">cm</string>
+    <string name="user_phone">手&#160;&#160;机</string>
+    <string name="view_medical_history">查看病史</string>
+    <string name="degree_of_sleepiness">嗜睡程度</string>
+    <string name="preservation">保&#160;&#160;&#160;&#160;&#160;存</string>
+    <string name="search_equipment">搜索设备</string>
+    <string name="device_has_been_connected">  设备\n已连接</string>
+    <string name="for_verification_please_wait">正在验证,请稍候......</string>
+    <string name="osahs_judgment_basis">OSAHS病情程度与AHI和低氧血症程度判断依据</string>
+    <string name="degree">程度</string>
+    <string name="ahi_s_h">AHI(次/h)</string>
+    <string name="minimum_spo2">最低SpO2(%)</string>
+    <string name="light">轻度</string>
+    <string name="moderate">中度</string>
+    <string name="severe">重度</string>
+    <string name="a_l_5_15">5~15</string>
+    <string name="m_l_85_90">85~90</string>
+    <string name="a_m_16_30">16~30</string>
+    <string name="m_m_80_84">80~84</string>
+    <string name="greater_than_30" formatted="false">>30</string>
+    <string name="less_than_80">&lt;80</string>
+    <string name="conclusion">结论:</string>
+    <string name="remarks">备注:</string>
+    <string name="ess_pf">ESS = </string>
+    <string name="ess_score"> 分</string>
+    <string name="bmi_score">BMI = </string>
+    <string name="bmi_kg_m"> kg/m²</string>
+    <string name="the_longest_low_ventilation">最长低通气</string>
+    <string name="occur_in">发生于</string>
+    <string name="total_low_ventilation">低通气总时间</string>
+    <string name="odi_fs">ODI = </string>
+    <string name="when_waking">醒时:</string>
+    <string name="lowest">最低:</string>
+    <string name="highest">最高:</string>
+    <string name="average">平均:</string>
+    <string name="blood_oxygen_distribution">血氧分布</string>
+    <string name="total_time">总时间</string>
+    <string name="bod_90_100" formatted="false">90%-100%</string>
+    <string name="bod_80_89" formatted="false">80%-89%</string>
+    <string name="bod_70_79" formatted="false">70%-79%</string>
+    <string name="bod_60_69" formatted="false">60%-69%</string>
+    <string name="bod_50_59" formatted="false">50%-59%</string>
+    <string name="bod_less_than_50" formatted="false">&lt;50%</string>
+    <string name="longest_apnea">最长呼吸暂停</string>
+    <string name="total_apnea">呼吸暂停总时间</string>
+    <string name="setting_st">设置</string>
+    <string name="hospital_name">医院名称</string>
+    <string name="doctor_name">医生姓名</string>
+    <string name="printer_information">打印机信息</string>
+    <string name="h_p">HP&#160;&#160;126.00.00</string>
+    <string name="history_selection">病史选择</string>
+    <string name="choose_whether_the_following_history_or_risk_factors">选择有无以下病史或危险因素</string>
+    <string name="insomnia">失  眠</string>
+    <string name="diabetes">糖尿病</string>
+    <string name="hypertension">高血压</string>
+    <string name="coronary_heart_disease">冠心病</string>
+    <string name="heart_failure">心力衰竭</string>
+    <string name="arrhythmia">心律失常</string>
+    <string name="nasal_obstruction">鼻腔阻塞</string>
+    <string name="long_term_smoking">长期吸烟</string>
+    <string name="bulky_uvula">悬雍垂粗大</string>
+    <string name="family_history_of_osahs">OSAHS的家族史</string>
+    <string name="cerebral_vascular_disease">脑血管疾病</string>
+    <string name="renal_function_damage">肾功能损害</string>
+    <string name="to_use_a_sedative_drug">用镇静剂/药物</string>
+    <string name="long_term_heavy_drinking">长期大量饮酒</string>
+    <string name="whether_menopause">绝  经</string>
+    <string name="evaluation_of_sleepiness">嗜睡程度评价</string>
+    <string name="possibility_of_sleepiness">在以下情况有无嗜睡的可能性</string>
+    <string name="sitting_in_the_reading">1、坐着阅读时</string>
+    <string name="when_watching_tv_2">2、看电视时</string>
+    <string name="sitting_in_the_public_places_do_not_move">3、在公共场所坐着不动时</string>
+    <string name="long_time_in_the_middle_of_the_car_does_not_rest">4、长时间坐车时中间不休息</string>
+    <string name="sitting_and_talking_with_people_5">5、坐着与人谈话时</string>
+    <string name="after_a_meal_break_no_alcohol_when_6">6、饭后休息时(未饮酒时)</string>
+    <string name="when_driving_and_other_traffic_lights_7">7、开车等红绿灯时</string>
+    <string name="afternoon_jingwo_rest_at_8">8、下午静卧休息时</string>
+    <string name="next_step">下一步</string>
+    <string name="qt_submit">提&#160;&#160;&#160;&#160;&#160;交</string>
+    <string name="sleep_care">睡&#160;眠&#160;管&#160;家</string>
+    <string name="mobile_phone">手机号</string>
+    <string name="verification_code">验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="verify_and_login">验证并登陆</string>
+    <string name="fill_in_the_registration_information">填写注册信息</string>
+    <string name="responsible_physician">责任医师</string>
+    <string name="d_e">杜恩</string>
+    <string name="d_e_medical_care">杜恩医疗</string>
+    <string name="d_phone_number">手机号码</string>
+    <string name="immediate_experience">立即体验</string>
+
+    <!-- activity -->
+    <string name="department_name">科室名称</string>
+    <!-- historyactivity -->
+    <string name="no_measured_data">,没有测量数据...</string>
+    <!-- mainactivity -->
+    <string name="bluetooth_failed_to_open_and_then_try_again">开启蓝牙失败，请确认是否支持蓝牙，然后重新尝试！</string>
+    <string name="then_click_one_exit_procedure">再按一次退出程序</string>
+    <string name="whether_thend_of_this_measurement_generation_phase_report">是否结束本次测量？\n\n    “结束”：生成本次测量的最终报告。\n    “否”：生成阶段报告，10分钟之内可以继续测量。</string>
+    <string name="end">结束</string>
+    <string name="no">否</string>
+    <string name="bluetooth_device_connection_failed_after_the_re_search_device">蓝牙设备连接失败\n请确认蓝牙设备开启后重新搜索设备！</string>
+    <string name="re_search">重新搜索</string>
+    <string name="cancel">  取   消  </string>
+    <string name="currently_being_measured_sure_you_want_to_switch_users">        当前正在测量，\n切换用户将使测量终止！\n    确认要切换用户吗？</string>
+    <string name="no_input">无</string>
+    <string name="severe_osahs">重度OSAHS</string>
+    <string name="moderate_osahs">中度OSAHS</string>
+    <string name="light_osahs">轻度OSAHS</string>
+    <string name="and_severe_hypoxia">且重度低氧血症</string>
+    <string name="and_moderate_hypoxia">且中度低氧血症</string>
+    <string name="and_mild_hypoxia">且轻度低氧血症</string>
+    <string name="severe_hypoxia">重度低氧血症</string>
+    <string name="moderate_hypoxia">中度低氧血症</string>
+    <string name="mild_hypoxia">轻度低氧血症</string>
+    <string name="report_upload_failed_please_open_network">报告上传失败，请打开网络！</string>
+    <string name="measurement_time_is_too_short">测量时间太短！</string>
+    <string name="data_processing_is_completed">数据处理完毕！</string>
+    <string name="to_perform_calculations_please">执行计算中，请稍后...</string>
+    <string name="measurement_exception_no_measurement_data">测量异常，没有测量数据！</string>
+    <string name="please_check_your_network_and_try_again">请检查您的网络，重新尝试！</string>
+    <string name="please_enter_the_name_of_the_hospital">请输入医院名称</string>
+    <string name="please_enter_your_doctors_name">请输入医生名称</string>
+    <string name="please_enter_the_name_of_the_department">请输入科室名称</string>
+    <string name="please_enter_the_printer_name">请输入打印机名称</string>
+    <string name="add_a_doctors_name">添加医生姓名</string>
+    <string name="doctor_name_delete_confirmation">医生姓名删除确认</string>
+    <string name="are_you_sure_you_want_to_delete">您确定要删除“</string>
+    <string name="m">”吗？</string>
+    <!-- switchactivity -->
+    <string name="the_user_deleted_successfully">该用户删除成功！</string>
+    <string name="waiting_for_the_bluetooth_connection_to_close_please_later">等待蓝牙连接关闭，\n          请稍候！</string>
+    <!-- AHIdialog -->
+    <string name="menopause">绝    经</string>
+    <string name="take_a_sedative">服用镇静剂</string>
+    <string name="a_family_history_of_osahs">有OSAHS的家族史</string>
+    <string name="daytime_sleepiness">日间嗜睡</string>
+    <string name="daytime_sleepiness_was_not_obvious">日间嗜睡不明显</string>
+    <string name="normal_daytime_sleepiness">正常</string>
+    <string name="mild_daytime_sleepiness">轻度嗜睡</string>
+    <string name="moderate_daytime_sleepiness">中度嗜睡</string>
+    <string name="severe_daytime_sleepiness">重度嗜睡</string>
+    
+    <string name="too_light">过轻</string>
+    <string name="normal">正常</string>
+    <string name="overweight">过重</string>
+    <string name="obesity">肥胖</string>
+    <string name="very_fat">非常肥胖</string>
+    <!-- viewMedicalhistory -->
+    <string name="female">女</string>
+    <string name="medical_history_of_the_disease">暂   无   病   史   . . .</string>
+    <!-- reportfragment -->
+    <string name="deep_sleep">深睡</string>
+    <string name="light_sleep">浅睡</string>
+    <string name="sober">清醒</string>
+    <string name="the_file_is_being_generated_please">正在生成文件，请稍后...</string>
+    <string name="please_turn_on_the_networ_connection">请开启网络连接！</string>
+    <string name="report_did_not_successfully_uploaded_open_the_network">报告未成功上传，请先打开网络上传报告，再继续查看数据！</string>
+    <string name="network_is_not_available_set_the_mobile_network_view_data">网络不可用，设置移动网络,查看数据！</string>
+    <string name="no_report">没有报告!</string>
+
+    <!-- MonthDateView -->
+    <string name="no_">第</string>
+    <string name="week">周</string>
+    <!-- weekDayView -->
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <!-- personalDataAcctivity -->
+    <string name="please_add_user">请添加用户</string>
+    <string name="years">年</string>
+    <string name="months">月</string>
+    <string name="days">日</string>
+    <string name="please_enter_the_correct_phone_number">请输入正确的手机号</string>
+    <string name="no_modification">没有修改！</string>
+    <string name="modify_failed_please_open_the_network">操作失败，请打开网络！</string>
+    <string name="success_of_user_information_modification">用户信息修改成功!</string>
+    <string name="user_information_modification_failed">用户信息修改失败!</string>
+    <string name="modifying_user_information_please_wait">正在修改用户信息，请稍候……</string>
+    <!-- updateBsFActivity -->
+    <string name="history_revision_success">病史修改成功!</string>
+    <string name="history_revision_failure">病史修改失败!</string>
+    <string name="please_wait_while_modifying_the_medical_history_information">正在修改病史信息，请稍候……</string>
+    <!-- uodateEssActivity -->
+    <string name="the_first_question_is_not_selected">第一题未选择</string>
+    <string name="the_second_question_is_not_selected">第二题未选择</string>
+    <string name="the_third_question_is_not_selected">第三题未选择</string>
+    <string name="the_fourth_question_is_not_selected">第四题未选择</string>
+    <string name="the_fifth_question_is_not_selected">第五题未选择</string>
+    <string name="the_sixth_question_is_not_selected">第六题未选择</string>
+    <string name="the_seventh_question_is_not_selected">第七题未选择</string>
+    <string name="the_eighth_question_is_not_selected">第八题未选择</string>
+    <string name="sleep_modification_success">嗜睡修改成功!</string>
+    <string name="sleep_modification_failure">嗜睡修改失败!</string>
+    <string name="modifying_sleepiness_information_please_wait">正在修改嗜睡信息，请稍候……</string>
+    <!-- userchangeActivity -->
+    <string name="the_number_of_users_is_full">用户数量已满！</string>
+    <string name="delete_user_fail">用户删除失败！</string>
+    <!-- userQuestionActivity -->
+    <string name="fill_in_the_failure">填写失败!</string>
+    <string name="input_username">请输入姓名</string>
+    <string name="input_gender">请输入性别</string>
+    <string name="input_birthday">请输入生日</string>
+    <string name="input_weight">请输入体重</string>
+    <string name="input_height">请输入身高</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="input_doctor_name">请输入责任医师</string>
+    <string name="input_hospital_name">请输入医院名称</string>
+    <string name="unknown_error_please_fill_in">未知错误，请重新填写!</string>
+    <string name="male">男</string>
+    <!-- user_feedback -->
+    <string name="user_feedback">&#160;&#160;&#160;用户反馈</string>
+    <string name="feedback">意见反馈</string>
+    <string name="enter_information_up_to_200">&#160;&#160;请输入信息，最多200字符</string>
+    <string name="your_opinion_is_very_important_for_us_to_submit_to_success">提交成功，您的意见对我们非常重要！</string>
+    <string name="submission_failed_please_try_again">提交失败，请重新尝试！</string>
+    <string name="please_enter_your_valuable_comments">请输入您的宝贵意见！</string>
+	<string name="no_measured_data_please_check_back_to_see">没有测量数据，请测量后再来查看</string>
+    
+	<!-- insert_adduser -->
+	<string name="long_press_tag_can_be_deleted">长按标签可以删除</string>
+	<string name="add_doctor">添加医生</string>
+	<string name="add_users">&#160;&#160;添加用户</string>
+	<string name="user_list">用户列表</string>
+    <string name="personal_information">&#160;&#160;&#160;个人资料</string>
+    <string name="about_us">&#160;&#160;&#160;关于我们</string>
+    <string name="member_list">成员列表</string>
+    
+    <!-- userregister -->
+    <string name="phone_number_input_error">手机号输入有误</string>
+    <string name="input_code">请输入验证码</string>
+    <string name="code_number_input_error">验证码输入有误</string>
+    <string name="imput_email">请输入邮箱</string>
+    <string name="email_number_input_error">邮箱输入有误</string>
+    <string name="re_send">重新发送</string>
+    <string name="user_email">邮箱</string>
+    <string name="emails">邮&#160;&#160;箱</string>
+</resources>

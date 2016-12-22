@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+<RelativeLayout
+        android:id="@+id/relativeLayout1_bsxz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#38b4ea"  >
+
+        <ImageView
+            android:id="@+id/imageView1_bs_mm"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sregister001" />
+
+        <TextView
+            android:id="@+id/textView1_bsxz_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/history_selection"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1_mmn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_whether_the_following_history_or_risk_factors"
+            android:textColor="#0b9cdb"
+            android:gravity="center"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/s_m_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/insomnia"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp"  />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/t_n_b_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/diabetes"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/g_x_y_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/hypertension"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/g_x_b_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/coronary_heart_disease"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/x_l_s_j_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/heart_failure"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp"  />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp" 
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/x_l_s_c_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/arrhythmia"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"  >
+
+        <TextView
+            android:id="@+id/s_f_j_j_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/sregister0002"
+            android:gravity="center"
+            android:text="@string/whether_menopause"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp" 
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/s_f_f_p_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/family_history_of_osahs"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/b_q_z_s_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/nasal_obstruction"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp" 
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/c_q_x_y_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/long_term_smoking"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/n_x_g_j_b_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/cerebral_vascular_disease"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp" 
+            android:layout_gravity="center_horizontal"  />
+
+        <TextView
+            android:id="@+id/s_g_n_s_h_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/renal_function_damage"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/z_j_j_y_w_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/to_use_a_sedative_drug"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp"  />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp" 
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/c_q_d_l_y_j_upbs_mm"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/long_term_heavy_drinking"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/x_y_c_c_d_mmnn_upbs"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/bulky_uvula"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/sregister0002"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp" 
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/o_s_s_j_z_s_mmnn"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="测试占位符"
+            android:gravity="center"
+            android:alpha="0"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:textColor="#595858"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/sure_submit1_upbs_mm"
+            android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:background="@drawable/slogin_0002"
+	        android:textSize="15sp"
+	        android:layout_marginTop="30dp"
+	        android:layout_marginLeft="30dp"
+	        android:layout_marginRight="30dp"
+	        android:layout_marginBottom="10dp"
+	        android:textColor="#ffffff"
+	        android:text="@string/preservation" />
+    </LinearLayout>
+
+</LinearLayout>

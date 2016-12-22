@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#38b4ea">
+<ImageView
+            android:id="@+id/imageView1_one"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sregister001" />
+            <TextView
+                android:id="@+id/textView2_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/fill_in_the_registration_information"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/sregister0001" >
+            <TextView
+                android:id="@+id/textView4_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_name"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+            
+
+            <EditText
+                android:id="@+id/tname_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="@null"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:ems="9" />
+
+          
+         
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/sex_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_gender"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp"  />
+           
+           
+            <TextView
+                android:id="@+id/tsex_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:textSize="15sp"
+                />
+            <!-- 
+            	android:enabled="false" 
+                android:editable="false"
+            
+             -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView6_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_birthday"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tage_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="date"
+                android:maxLength="15"
+                android:textSize="15sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView8_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_weight"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp"  />
+
+            <TextView
+                android:id="@+id/twid_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="7"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/textView5_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/twid_one"
+                android:text="@string/weight_kg"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp"  />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/sregister0001" >
+
+            <TextView
+                android:id="@+id/textView10_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/user_height"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/thei_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:ems="7"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textSize="15sp"
+                 />
+
+            <TextView
+                android:id="@+id/textView7_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/thei_one"
+                android:layout_alignBottom="@+id/thei_one"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/thei_one"
+                android:text="@string/height_cm"
+                android:textColor="#6C6C6C"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_one"
+        android:layout_below="@+id/linearLayout1"
+       	android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/slogin_0002"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:text="@string/next_step"/>
+
+</RelativeLayout>
